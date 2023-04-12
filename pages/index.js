@@ -11,6 +11,7 @@ export default function Home() {
       {data.products.map((product)=>
         <ProductItem product= {product} key={product.slug} />
       )}
+    
       </div>
     </Layout>
   )
